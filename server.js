@@ -23,7 +23,7 @@ class Server {
         res.end();
     }
 
-    static startVercelServer() {
+    static startVercelServer(req, res) {
         Server.handleRequest(req, res);
     }
 }
